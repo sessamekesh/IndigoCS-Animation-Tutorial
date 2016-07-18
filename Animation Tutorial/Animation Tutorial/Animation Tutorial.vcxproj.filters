@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Animation Code">
+      <UniqueIdentifier>{393ee58b-5641-4020-af9d-facf5b1fb511}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine Code">
+      <UniqueIdentifier>{d2f2a082-a19c-4e08-8a7e-4027c4064728}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Animation Code">
+      <UniqueIdentifier>{4f741325-ce9a-4f21-b35f-7c1b8f296e34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine Code">
+      <UniqueIdentifier>{0d6919ea-8696-4855-901a-8a4b7bca7067}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Files">
+      <UniqueIdentifier>{c014d54a-0788-4f1f-b6ce-b5abcfae37e2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BasicShaderMD.h">
+      <Filter>Header Files\Engine Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Header Files\Engine Code</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugCamera.h">
+      <Filter>Header Files\Engine Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Dirtyable.h">
+      <Filter>Header Files\Engine Code</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugShader.h">
+      <Filter>Header Files\Engine Code</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionalLight.h">
+      <Filter>Header Files\Engine Code</Filter>
+    </ClInclude>
+    <ClInclude Include="DemoApp.h">
+      <Filter>Header Files\Engine Code</Filter>
+    </ClInclude>
+    <ClInclude Include="IActor.h">
+      <Filter>Header Files\Engine Code</Filter>
+    </ClInclude>
+    <ClInclude Include="IKeyEventListener.h">
+      <Filter>Header Files\Engine Code</Filter>
+    </ClInclude>
+    <ClInclude Include="IRenderable.h">
+      <Filter>Header Files\Engine Code</Filter>
+    </ClInclude>
+    <ClInclude Include="IScene.h">
+      <Filter>Header Files\Engine Code</Filter>
+    </ClInclude>
+    <ClInclude Include="ISceneNode.h">
+      <Filter>Header Files\Engine Code</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyEvent.h">
+      <Filter>Header Files\Engine Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Header Files\Engine Code</Filter>
+    </ClInclude>
+    <ClInclude Include="maffs.h">
+      <Filter>Header Files\Engine Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Header Files\Engine Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>Header Files\Engine Code</Filter>
+    </ClInclude>
+    <ClInclude Include="MixamoCharacter.h">
+      <Filter>Header Files\Engine Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Quaternion.h">
+      <Filter>Header Files\Engine Code</Filter>
+    </ClInclude>
+    <ClInclude Include="RoadBaseModel.h">
+      <Filter>Header Files\Engine Code</Filter>
+    </ClInclude>
+    <ClInclude Include="RootSceneNode.h">
+      <Filter>Header Files\Engine Code</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGraph.h">
+      <Filter>Header Files\Engine Code</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderPNS4_MD1.h">
+      <Filter>Header Files\Engine Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Header Files\Engine Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Vec3.h">
+      <Filter>Header Files\Engine Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Vec4.h">
+      <Filter>Header Files\Engine Code</Filter>
+    </ClInclude>
+    <ClInclude Include="OffBrandChewy.h">
+      <Filter>Header Files\Engine Code</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BasicShaderMD.cc">
+      <Filter>Source Files\Engine Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Color.cc">
+      <Filter>Source Files\Engine Code</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugCamera.cc">
+      <Filter>Source Files\Engine Code</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugShader.cc">
+      <Filter>Source Files\Engine Code</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectionalLight.cc">
+      <Filter>Source Files\Engine Code</Filter>
+    </ClCompile>
+    <ClCompile Include="DemoApp.cc">
+      <Filter>Source Files\Engine Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cc">
+      <Filter>Source Files\Engine Code</Filter>
+    </ClCompile>
+    <ClCompile Include="maffs.cc">
+      <Filter>Source Files\Engine Code</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cc">
+      <Filter>Source Files\Engine Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cc">
+      <Filter>Source Files\Engine Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix.cc">
+      <Filter>Source Files\Engine Code</Filter>
+    </ClCompile>
+    <ClCompile Include="MixamoCharacter.cc">
+      <Filter>Source Files\Engine Code</Filter>
+    </ClCompile>
+    <ClCompile Include="OffBrandChewy.cc">
+      <Filter>Source Files\Engine Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Quaternion.cc">
+      <Filter>Source Files\Engine Code</Filter>
+    </ClCompile>
+    <ClCompile Include="RoadBaseModel.cc">
+      <Filter>Source Files\Engine Code</Filter>
+    </ClCompile>
+    <ClCompile Include="RootSceneNode.cc">
+      <Filter>Source Files\Engine Code</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGraph.cc">
+      <Filter>Source Files\Engine Code</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderPNS4_MD1.cc">
+      <Filter>Source Files\Engine Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cc">
+      <Filter>Source Files\Engine Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Vec3.cc">
+      <Filter>Source Files\Engine Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Vec4.cc">
+      <Filter>Source Files\Engine Code</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="BasicMaterialDirectional1.ps.hlsl">
+      <Filter>Shader Files</Filter>
+    </FxCompile>
+    <FxCompile Include="BasicPosNorm.hlsl">
+      <Filter>Shader Files</Filter>
+    </FxCompile>
+    <FxCompile Include="DebugShader.ps.hlsl">
+      <Filter>Shader Files</Filter>
+    </FxCompile>
+    <FxCompile Include="DebugShader.vs.hlsl">
+      <Filter>Shader Files</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LightDefs.hlsli">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="Material.hlsli">
+      <Filter>Shader Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
